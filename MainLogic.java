@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import java.util.List;
 import java.io.*;
 import java.net.*;
-
+// main logic
 public class ElPaisScraper {
     public static void main(String[] args) {
         // Initialize the WebDriver (Assume Chrome is installed)
