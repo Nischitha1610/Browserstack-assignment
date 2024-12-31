@@ -1,0 +1,36 @@
+<dependencies>
+    <!-- Selenium WebDriver Dependency -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.10.0</version>
+    </dependency>
+    
+    <!-- WebDriver Manager Dependency -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.3.0</version>
+    </dependency>
+
+    <!-- HttpClient Dependency for downloading images -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.13</version>
+    </dependency>
+
+    <!-- Gson for handling translations -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.9</version>
+    </dependency>
+    
+    <!-- Add the Google Translate API dependency if available -->
+    <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-translate</artifactId>
+        <version>1.113.2</version>
+    </dependency>
+</dependencies>
